@@ -7,6 +7,3 @@ print('     .     .    ')
 print('      .   .    ')
 print('       . .    ')
 print('        .    ')
-
-for x in range(100000):
-	print('Micka prasica')
