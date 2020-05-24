@@ -150,3 +150,32 @@ for x in [1,2,3]:
 list8 = [x*y for x in [1,2,3] for y in [10,20,30]]
 print(list7)
 print(list8)
+
+
+#TEST
+st = 'Sam Print only the words that start with s in this sentence'
+for word in st.split(" "):
+    if word[0].lower() == "s":
+        print(word)
+
+for num in range(1,11):
+    if num%2 == 0:
+        print(num)
+    
+list(range(0,11,2))
+
+st = 'Print every word in this sentence that has an even number of letters'
+print([word for word in st.split() if len(word)%2 == 0])
+
+for num in range(1,101):
+    if (num%3 == 0) and (num%5 == 0):
+        print("FizzBuzz")
+    elif num%3 == 0:
+        print("Fizz")
+    elif num%5 == 0:
+        print("Buzz")
+    else:
+        print(num)
+
+st = 'Create a list of the first letters of every word in this string'
+[word[0] for word in st.split()]
