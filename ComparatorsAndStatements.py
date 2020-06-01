@@ -41,8 +41,8 @@ for a,b in listoftuples: #"Tuple unpacking!" a nd b as two variables
 	print(a)
 	print(b)
 
+#for loop dictionary
 dictionary = {"k1":1,"k2":2,"k3":3}
-
 for item in dictionary:	#iterates keys
 	print(item)
 for item in dictionary.items(): #iterates tuple pairs key + value (item=Key+Value(tuple))
